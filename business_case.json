@@ -1,0 +1,76 @@
+{
+  "window_months": 17.9,
+  "tickets": 11875,
+  "tickets_per_week": 152.6,
+  "payout": {
+    "paid_orders_checked": 1833,
+    "leak_orders": 130,
+    "leak_rate": 0.0709,
+    "leak_inr_total": 308967,
+    "leak_inr_per_quarter": 51770,
+    "by_kind": {
+      "over_refund": 146577.0,
+      "refund_and_replace": 162390.0
+    },
+    "target_rate": 0.02,
+    "share_prevented_at_target": 0.718,
+    "saving_per_quarter_at_target": 37171,
+    "sensitivity_saving_per_quarter": {
+      "50% prevented": 25885,
+      "70% prevented": 36239,
+      "90% prevented": 46593
+    }
+  },
+  "repeat_contacts": {
+    "rate": 0.1027,
+    "cost_total": 310200,
+    "cost_per_quarter": 51977,
+    "top_themes_by_cost": [
+      {
+        "theme": "order_not_received",
+        "n": 1645,
+        "back": 0.145,
+        "cost": 64430.0
+      },
+      {
+        "theme": "pairing_failure",
+        "n": 876,
+        "back": 0.132,
+        "cost": 31410.0
+      },
+      {
+        "theme": "payment_issue",
+        "n": 828,
+        "back": 0.122,
+        "cost": 26440.0
+      },
+      {
+        "theme": "refund_not_received",
+        "n": 823,
+        "back": 0.119,
+        "cost": 25350.0
+      },
+      {
+        "theme": "battery_drain",
+        "n": 558,
+        "back": 0.113,
+        "cost": 18790.0
+      }
+    ]
+  },
+  "sla": {
+    "breach_rate": 0.0885,
+    "credits_total": 367850,
+    "credits_per_quarter": 61637,
+    "night_vs_day": [
+      0.129,
+      0.068
+    ]
+  },
+  "transfers": {
+    "count": 1169,
+    "cost_total": 356545,
+    "cost_per_quarter": 59743
+  },
+  "contact_cost_note": "policy s4 blended Rs 290 (channel-specific 210/260/520/240); Finance's Rs 180 is not used. Payout leak does not depend on contact cost."
+}
